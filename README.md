@@ -7,7 +7,7 @@ This image builds on top of my base posrgres 9.5 docker image, adding in an admi
 
 You can run this image with the following docker command:
 
-`docker run -p 5432:5432 -p 8080:8080 yorkshirekev/postgres-pgstudio:9.5-2.0`
+`docker run -p 5432:5432 -p 8080:8080 --name postgres-pgstudio yorkshirekev/postgres-pgstudio:9.5-2.0`
 
 Once the container is running you can point your browser at `https://localhost:8080`, or `http://{IP-ADDR-OF-SERVER}:8080` to access PG Studio.
 
